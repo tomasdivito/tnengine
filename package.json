@@ -1,0 +1,16 @@
+{
+  "name": "tn-engine",
+  "version": "1.0.0",
+  "description": "javascript and canvas engine",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "game",
+    "engine",
+    "javascript"
+  ],
+  "author": "Tomás Di Vito",
+  "license": "ISC"
+}
