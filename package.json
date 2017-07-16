@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "javascript and canvas engine",
   "main": "index.js",
+  "repository": "git@github.com:tomasdivito/tnengine.git",
   "scripts": {
+    "start": "webpack-dev-server --open",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -12,5 +14,19 @@
     "javascript"
   ],
   "author": "Tomás Di Vito",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "babel": "^6.23.0",
+    "babel-loader": "^7.1.1",
+    "babel-preset-es2015": "^6.24.1",
+    "path": "^0.12.7",
+    "requirejs": "^2.3.3",
+    "webpack": "^3.3.0",
+    "webpack-dev-server": "^2.5.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1"
+  }
 }
